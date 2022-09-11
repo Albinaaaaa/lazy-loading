@@ -1,0 +1,33 @@
+.title {
+    text-align: center;
+}
+
+.container {
+    width: 1120px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    flex: 0 1 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item__photo {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.item__text {
+    max-width: 600px;
+}
